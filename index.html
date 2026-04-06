@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify App Intelligence | AI-Driven B2B E-commerce Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        html { scroll-behavior: smooth; }
+        .glass-panel {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #818cf8 0%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+    <!-- Navbar -->
+    <nav class="glass-panel sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+        <div class="flex items-center space-x-2 text-xl font-bold tracking-tight">
+            <span class="text-indigo-400">⚡</span>
+            <span>App Intelligence</span>
+        </div>
+        <div class="space-x-8 hidden md:flex text-slate-300 font-medium">
+            <a href="#features" class="hover:text-white transition">Features</a>
+            <a href="#pricing" class="hover:text-white transition">Pricing</a>
+            <a href="support.html" class="hover:text-white transition">Support</a>
+        </div>
+        <a href="#pricing" class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2 rounded-lg font-semibold transition shadow-lg shadow-indigo-500/30">Get Started</a>
+    </nav>
+
+    <!-- Hero -->
+    <main class="flex-grow flex flex-col items-center justify-center text-center px-4 pt-24 pb-16">
+        <div class="inline-block px-4 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 font-medium text-sm mb-8">
+            The Ultimate E-commerce Recon Tool
+        </div>
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 max-w-4xl leading-tight">
+            Generate Actionable Funnel Playbooks <span class="text-gradient">in Seconds.</span>
+        </h1>
+        <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
+            Go beyond just seeing what apps your competitors use. Let our AI analyze their entire stack, discover hidden funnel pages, and output a battle-tested strategy you can deploy today.
+        </p>
+        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center">
+            <a href="#pricing" class="bg-gradient-to-r from-indigo-600 to-purple-600 hover:opacity-90 text-white px-8 py-4 rounded-xl font-bold transition text-lg shadow-xl shadow-indigo-500/25">Unlock Premium Data</a>
+        </div>
+    </main>
+
+    <!-- Features -->
+    <section id="features" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+            <div class="glass-panel p-8 rounded-2xl">
+                <div class="text-indigo-400 text-3xl mb-4">🔍</div>
+                <h3 class="text-xl font-bold mb-3">Deep App Scanning</h3>
+                <p class="text-slate-400">Instantly uncover the hidden tech stack powering 7-figure Shopify stores. No more guessing what tools they use.</p>
+            </div>
+            <div class="glass-panel p-8 rounded-2xl">
+                <div class="text-indigo-400 text-3xl mb-4">🛒</div>
+                <h3 class="text-xl font-bold mb-3">Hidden Product Extractor</h3>
+                <p class="text-slate-400">We analyze products.json payloads directly from the backend to find their true top-selling variants and pricing strategies.</p>
+            </div>
+            <div class="glass-panel p-8 rounded-2xl">
+                <div class="text-indigo-400 text-3xl mb-4">⚡</div>
+                <h3 class="text-xl font-bold mb-3">AI Strategy Playbook</h3>
+                <p class="text-slate-400">Stream a personalized competitor takedown report straight to your extension using our custom serverless pipeline.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-24 px-4 bg-slate-900/50">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Simple, Transparent Pricing</h2>
+            <p class="text-xl text-slate-400 mb-16 max-w-2xl mx-auto">Get unlimited access to actionable AI insights and competitor analysis.</p>
+            
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto text-left">
+                <!-- Free Tier -->
+                <div class="glass-panel p-8 rounded-2xl flex flex-col relative">
+                    <h3 class="text-2xl font-bold mb-2">Free Starter</h3>
+                    <div class="text-4xl font-extrabold mb-6">$0</div>
+                    <ul class="space-y-4 text-slate-300 mb-8 flex-grow">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Basic App Detection</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Theme Identification</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> 2 Free AI Audits</li>
+                    </ul>
+                    <a href="https://chrome.google.com/webstore" target="_blank" class="glass-panel text-center py-3 rounded-xl font-bold hover:bg-white/5 transition">Add to Chrome</a>
+                </div>
+
+                <!-- Pro Tier -->
+                <div class="p-8 rounded-2xl flex flex-col border border-indigo-500 relative bg-gradient-to-b from-indigo-900/40 to-slate-900/40">
+                    <div class="absolute top-0 right-8 transform -translate-y-1/2 bg-indigo-500 text-white px-3 py-1 rounded-full text-sm font-bold shadow-lg">Most Popular</div>
+                    <h3 class="text-2xl font-bold mb-2">Unlimited Intelligence</h3>
+                    <div class="text-4xl font-extrabold mb-1">$15<span class="text-lg text-slate-400 font-normal"> / mo</span></div>
+                    <p class="text-sm text-slate-400 mb-6">Billed securely via PayPal</p>
+                    <ul class="space-y-4 text-slate-200 mb-8 flex-grow">
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Unlimited AI Funnel Playbooks</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Deep Sitemap Scanning</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Hidden Product Extractor</li>
+                        <li class="flex items-center"><svg class="w-5 h-5 mr-3 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Priority Support</li>
+                    </ul>
+                    <!-- PayPal Subscription Button -->
+                    <div id="paypal-button-container-P-27187204P4583044TNHKCJGQ" class="mt-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="glass-panel mt-auto py-8 text-center text-slate-400 text-sm">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-6">
+            <p>&copy; 2026 Tiger Brands Global. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="privacy.html" class="hover:text-white transition">Privacy Policy</a>
+                <a href="support.html" class="hover:text-white transition">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- PayPal SDK & Subscription Button Init -->
+    <script src="https://www.paypal.com/sdk/js?client-id=AdDP-AehBUkwUZYPuW8RiGN7pmiLV-ZItGiyDqhdSgFB6r5mH6I_H4hoMow5edFrDfneJcKDyDRyDyXv&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+    <script>
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+        },
+        createSubscription: function(data, actions) {
+          return actions.subscription.create({
+            plan_id: 'P-27187204P4583044TNHKCJGQ'
+          });
+        },
+        onApprove: function(data, actions) {
+          // Show a friendly success message instead of a raw alert
+          const container = document.getElementById('paypal-button-container-P-27187204P4583044TNHKCJGQ');
+          container.innerHTML = '<div style="text-align:center;padding:16px;color:#818cf8;font-weight:600;">🎉 Subscription active! Your Subscription ID: ' + data.subscriptionID + '</div>';
+        }
+      }).render('#paypal-button-container-P-27187204P4583044TNHKCJGQ');
+    </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Shopify App Intelligence</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }</style>
+</head>
+<body class="antialiased min-h-screen flex flex-col">
+    <nav class="border-b border-indigo-500/20 px-6 py-4">
+        <a href="index.html" class="text-xl font-bold tracking-tight text-white hover:text-indigo-400 transition">
+            ⚡ App Intelligence
+        </a>
+    </nav>
+    <main class="flex-grow max-w-4xl mx-auto px-6 py-12 w-full prose prose-invert prose-indigo">
+        <h1 class="text-4xl font-bold mb-8">Privacy Policy</h1>
+        <p class="text-slate-400 mb-8">Last Updated: March 2026</p>
+        
+        <div class="space-y-6 text-slate-300">
+            <section>
+                <h2 class="text-2xl font-semibold text-white mb-3">1. Introduction</h2>
+                <p>Tiger Brands Global ("we", "us", or "our") respects your privacy. This Privacy Policy outlines our practices concerning the collection, use, and disclosure of information when you use the Shopify App Intelligence Chrome Extension ("Extension"). Our extension strictly complies with the Chrome Web Store Developer Program Policies.</p>
+            </section>
+            
+            <section>
+                <h2 class="text-2xl font-semibold text-white mb-3">2. Data We Collect and Why</h2>
+                <p>The Extension relies on specific permissions to function correctly. We only request the absolute minimum permissions needed.</p>
+                <ul class="list-disc pl-6 space-y-2 mt-2">
+                    <li><strong>activeTab:</strong> Used exclusively when the user clicks the extension icon to analyze the Document Object Model (DOM) of the current Shopify store for tech stack detection. The data analyzed is strictly limited to identifying third-party apps, scripts, and theme metadata.</li>
+                    <li><strong>storage (local):</strong> We store minimal usage data (e.g., number of "Free AI Funnel Audits" generated) solely to manage the Freemium limitation mechanism locally on your device. We do not store personally identifiable browsing history.</li>
+                    <li><strong>scripting:</strong> Required to inject the isolated content script into the active tab to execute the DOM detection securely without relying on remote code.</li>
+                    <li><strong>host permissions (*.myshopify.com):</strong> Allows automatic background detection when navigating between Shopify domains, and enables fetching public <code>products.json</code> or <code>sitemap.xml</code> data explicitly for generating the AI Funnel Playbook logic when initiated by the user.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold text-white mb-3">3. How Your Data Is Used</h2>
+                <p>The information gathered from the active tab is parsed strictly to provide you with insights about a store's technology stack and marketing funnels. The summarized data is securely sent to our Edge Backend integration temporarily, exclusively for generating the markdown "Funnel Playbook" response using an AI pipeline. This payload contains public store URLs, generic site maps, and component structure, <strong>not</strong> your personal browsing information.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold text-white mb-3">4. Single Purpose Policy</h2>
+                <p>The singular purpose of this extension is to provide users with competitive Shopify store analysis and actionable e-commerce intelligence. We do not collect, use, or sell your data for targeted advertising, credit profiling, or any purpose unrelated to the core function of the extension.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold text-white mb-3">5. Data Sharing & Security</h2>
+                <p>Your personal data is not sold to third parties. Subscription and payment processing relies fully on external PCI-compliant third parties (e.g., PayPal), and we do not see or store your billing details.</p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold text-white mb-3">6. Contact Us</h2>
+                <p>For any questions regarding this Privacy Policy or your data, please contact us at:<br>
+                Email: <a href="mailto:support@tigerbrandsglobal.com" class="text-indigo-400">support@tigerbrandsglobal.com</a></p>
+            </section>
+        </div>
+    </main>
+    <footer class="border-t border-indigo-500/20 py-8 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 Tiger Brands Global. All rights reserved.</p>
+    </footer>
+</body>
+</html>
