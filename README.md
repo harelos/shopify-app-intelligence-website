@@ -18,5 +18,5 @@ Push to GitHub Pages, or serve `index.html` from any static host.
 
 ---
 
-Built by [Zvi](https://github.com/harelos) — DTC marketer who ships. More
+Built by [Jacob](https://github.com/harelos) — DTC marketer who ships. More
 tools: [github.com/harelos](https://github.com/harelos).
